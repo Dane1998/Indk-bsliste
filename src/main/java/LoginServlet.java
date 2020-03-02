@@ -30,9 +30,9 @@ public class LoginServlet extends HttpServlet {
         if (((Map<String, String>) servletContext.getAttribute("brugerMap")).containsKey(navn)) {
 
             //todo gå til login side
-            
-            request.setAttribute("besked","brugernavnet findes ikke, prøv igen" );
-            request.getRequestDispatcher("index.jsp").forward(request,response);
+
+            request.setAttribute("besked","Opret dig som bruger" );
+            request.getRequestDispatcher("WEB-INF/OpretBruger.jsp").forward(request,response);
 
         }
 
