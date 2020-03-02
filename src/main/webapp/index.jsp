@@ -23,9 +23,9 @@ ${requestScope.besked}
 <br>
 
 <form action="LoginServlet" method="post">
-    <label for="fname">First name:</label><br>
+    <label for="fname">Username:</label><br>
     <input type="text" id="fname" name="navn"><br>
-    <label for="lname">Last name:</label><br>
+    <label for="lname">Password:</label><br>
     <input type="text" id="lname" name="kodeord">
     <input type="submit" value="login">
 </form>
