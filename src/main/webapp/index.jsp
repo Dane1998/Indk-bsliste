@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<h1>Velkommen til din online indkøbsliste.</h1>
+<h1>Velkommen til din webshop</h1>
 
 <br>
 <br>

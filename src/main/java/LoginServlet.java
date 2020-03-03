@@ -28,7 +28,7 @@ public class LoginServlet extends HttpServlet {
             servletContext.setAttribute("brugerMap", brugerMap);
 
         }
-        
+
         if (!((Map<String, String>) servletContext.getAttribute("brugerMap")).containsKey(navn)) {
 
             //todo gå til login side

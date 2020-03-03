@@ -24,7 +24,7 @@ public class AdminServlet extends HttpServlet {
 
         ((Map<String,String>)servletContext.getAttribute("brugerMap")).remove(navn);
 
-            request.setAttribute("besked", "Brugeren " + navn + "er slettet");
+            request.setAttribute("besked", "Brugeren " + navn + " er slettet");
 
             request.getRequestDispatcher("WEB-INF/admin.jsp").forward(request,response);
 
